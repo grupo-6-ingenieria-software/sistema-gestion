@@ -1,0 +1,308 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="CU6-E1-BusquedaSinResultados" id="cu6-e1-001">
+    <mxGraphModel dx="2400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3400" pageHeight="1690" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll1" value="Dueño / Trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="20" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2" value="V_ListadoProductosView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll3" value="C_ControlAcceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll4" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll5" value="C_ConsultaProductoHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll6" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll7" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll8" value="producto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll9" value="categoria" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ll10" value="lote" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="10" width="180" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="bA" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="10" height="1395" as="geometry" />
+        </mxCell>
+        <mxCell id="bV07" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="245" y="90" width="10" height="1395" as="geometry" />
+        </mxCell>
+        <mxCell id="bC13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="885" y="130" width="10" height="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="bC03" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="465" y="170" width="10" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="bJWT" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="685" y="210" width="10" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZ" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="395" width="10" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="bLS" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="435" width="10" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="bTP" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="475" width="10" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="bTC" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1685" y="555" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bTL" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="635" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="1. Accede a Inventario &gt; Productos" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bA" target="bV07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="100" /></Array>
+            <mxPoint x="65" y="100" as="sourcePoint" />
+            <mxPoint x="245" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="2. producto:listar (filtros iniciales + JWT)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bV07" target="bC13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="570" y="140" /></Array>
+            <mxPoint x="255" y="140" as="sourcePoint" />
+            <mxPoint x="885" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="3. Validar JWT + permisos" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC13" target="bC03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="680" y="180" /></Array>
+            <mxPoint x="885" y="180" as="sourcePoint" />
+            <mxPoint x="475" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="4. verify(token, secret)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC03" target="bJWT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="220" /></Array>
+            <mxPoint x="475" y="220" as="sourcePoint" />
+            <mxPoint x="685" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="5. payload {id_usuario, rol}" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bJWT" target="bC03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="260" /></Array>
+            <mxPoint x="685" y="260" as="sourcePoint" />
+            <mxPoint x="475" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="6. Acceso otorgado (rol = Dueño/Trabajador)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bC03" target="bC13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="680" y="300" /></Array>
+            <mxPoint x="475" y="300" as="sourcePoint" />
+            <mxPoint x="885" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="7. Determina columnas por rol (precio de costo solo Dueño)" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="960" y="340" /><mxPoint x="960" y="370" /></Array>
+            <mxPoint x="895" y="340" as="sourcePoint" />
+            <mxPoint x="895" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="8. SELECT productos activos con categoría y stock actual" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC13" target="bDZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1000" y="405" /></Array>
+            <mxPoint x="895" y="405" as="sourcePoint" />
+            <mxPoint x="1105" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="9. Ejecutar SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bDZ" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1210" y="445" /></Array>
+            <mxPoint x="1115" y="445" as="sourcePoint" />
+            <mxPoint x="1305" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="10. SELECT productos activos (ORDER BY nombre ASC)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bTP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1410" y="485" /></Array>
+            <mxPoint x="1315" y="485" as="sourcePoint" />
+            <mxPoint x="1505" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="11. filas producto" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bTP" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1410" y="525" /></Array>
+            <mxPoint x="1505" y="525" as="sourcePoint" />
+            <mxPoint x="1315" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="12. SELECT nombre de categoría (JOIN)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bTC">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1500" y="565" /></Array>
+            <mxPoint x="1315" y="565" as="sourcePoint" />
+            <mxPoint x="1685" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="13. categorías asociadas" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bTC" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1500" y="605" /></Array>
+            <mxPoint x="1685" y="605" as="sourcePoint" />
+            <mxPoint x="1315" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="14. SELECT SUM(lote_cantidad_actual) y lote_precio_costo por producto (JOIN)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bTL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1590" y="645" /></Array>
+            <mxPoint x="1315" y="645" as="sourcePoint" />
+            <mxPoint x="1865" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" value="15. stock actual + precio de costo por producto" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bTL" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1590" y="685" /></Array>
+            <mxPoint x="1865" y="685" as="sourcePoint" />
+            <mxPoint x="1315" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="16. OK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bDZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1210" y="725" /></Array>
+            <mxPoint x="1305" y="725" as="sourcePoint" />
+            <mxPoint x="1115" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" value="17. productos activos + categoría + stock actual" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bDZ" target="bC13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1000" y="765" /></Array>
+            <mxPoint x="1105" y="765" as="sourcePoint" />
+            <mxPoint x="895" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" value="18. Listado de productos activos (orden por nombre ASC)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bC13" target="bV07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="570" y="805" /></Array>
+            <mxPoint x="885" y="805" as="sourcePoint" />
+            <mxPoint x="255" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" value="19. Muestra tabla de productos (precio de costo solo si rol = Dueño)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bV07" target="bA">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="845" /></Array>
+            <mxPoint x="245" y="845" as="sourcePoint" />
+            <mxPoint x="65" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" value="20. Ingresa texto de búsqueda (nombre o EAN-13)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bA" target="bV07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="885" /></Array>
+            <mxPoint x="65" y="885" as="sourcePoint" />
+            <mxPoint x="245" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" value="21. producto:listar (búsqueda nombre/EAN-13 + JWT)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bV07" target="bC13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="570" y="925" /></Array>
+            <mxPoint x="255" y="925" as="sourcePoint" />
+            <mxPoint x="885" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" value="22. Validar JWT + permisos" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC13" target="bC03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="680" y="965" /></Array>
+            <mxPoint x="885" y="965" as="sourcePoint" />
+            <mxPoint x="475" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" value="23. verify(token, secret)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC03" target="bJWT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="1005" /></Array>
+            <mxPoint x="475" y="1005" as="sourcePoint" />
+            <mxPoint x="685" y="1005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24" value="24. payload {id_usuario, rol}" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bJWT" target="bC03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="1045" /></Array>
+            <mxPoint x="685" y="1045" as="sourcePoint" />
+            <mxPoint x="475" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e25" value="25. Acceso otorgado (rol = Dueño/Trabajador)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bC03" target="bC13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="680" y="1085" /></Array>
+            <mxPoint x="475" y="1085" as="sourcePoint" />
+            <mxPoint x="885" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e26" value="26. Determina columnas por rol (precio de costo solo Dueño)" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="960" y="1125" /><mxPoint x="960" y="1155" /></Array>
+            <mxPoint x="895" y="1125" as="sourcePoint" />
+            <mxPoint x="895" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27" value="27. SELECT productos activos por nombre (parcial) o EAN-13 (exacto)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC13" target="bDZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1000" y="1190" /></Array>
+            <mxPoint x="895" y="1190" as="sourcePoint" />
+            <mxPoint x="1105" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e28" value="28. Ejecutar SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bDZ" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1210" y="1230" /></Array>
+            <mxPoint x="1115" y="1230" as="sourcePoint" />
+            <mxPoint x="1305" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29" value="29. SELECT por nombre LIKE o EAN-13 exacto" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bTP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1410" y="1270" /></Array>
+            <mxPoint x="1315" y="1270" as="sourcePoint" />
+            <mxPoint x="1505" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" value="30. sin filas" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bTP" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1410" y="1310" /></Array>
+            <mxPoint x="1505" y="1310" as="sourcePoint" />
+            <mxPoint x="1315" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" value="31. OK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bDZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1210" y="1350" /></Array>
+            <mxPoint x="1305" y="1350" as="sourcePoint" />
+            <mxPoint x="1115" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e32" value="32. sin productos que coincidan" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bDZ" target="bC13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1000" y="1390" /></Array>
+            <mxPoint x="1105" y="1390" as="sourcePoint" />
+            <mxPoint x="895" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" value="33. Listado vacío + mensaje" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bC13" target="bV07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="570" y="1430" /></Array>
+            <mxPoint x="885" y="1430" as="sourcePoint" />
+            <mxPoint x="255" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" value="34. Muestra &quot;No se encontraron productos&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bV07" target="bA">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="1470" /></Array>
+            <mxPoint x="245" y="1470" as="sourcePoint" />
+            <mxPoint x="65" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

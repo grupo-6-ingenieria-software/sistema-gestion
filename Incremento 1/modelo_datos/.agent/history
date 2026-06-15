@@ -1,0 +1,6 @@
+hello
+describe this directory
+erd is old schema drizzle all that i did in the wrong manner. modelo_datos is the actual one and i defined the schema for my erd, and am now at the point of creating the diagram in drawio. Delete the old folders
+yes
+update the readme
+estoy definiendo las relaciones como 1:N 1:1 N:M, es una de las opciones junto a el otro formato que es (1,1) (0..1,1) (0..N, N). En el formato 1:N incluso cuando hay casos que ese 1 puede ser un 0 realmente. sigue siendo correcto?
