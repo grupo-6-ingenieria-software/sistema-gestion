@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="CU29-E2-TrabajadorInactivo" id="cu29-e2-001">
+    <mxGraphModel dx="2400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3400" pageHeight="970" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll1" value="Dueño / Trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="20" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2" value="V_RegistrarEntradaView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll3" value="C_AsistenciaHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll4" value="C_ControlAcceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll5" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="800" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll6" value="C_cryptoNode" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll7" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll8" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll9" value="trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll10" value="turno" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ll11" value="asistencia" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="10" width="180" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="bA" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="10" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="bVA" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="245" y="90" width="10" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="bC23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="465" y="195" width="10" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="bC03" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="685" y="235" width="10" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bJWT" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="885" y="275" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZ" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="460" width="10" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="bLS" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="500" width="10" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bTT" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1685" y="540" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="1. Ingresa RUT o selecciona trabajador desde lista" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bA" target="bVA">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="100" /></Array>
+            <mxPoint x="65" y="100" as="sourcePoint" />
+            <mxPoint x="245" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="2. Validar formato de RUT" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="320" y="140" /><mxPoint x="320" y="170" /></Array>
+            <mxPoint x="255" y="140" as="sourcePoint" />
+            <mxPoint x="255" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="3. asistencia:entrada (RUT/trabajador + JWT)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bVA" target="bC23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="360" y="205" /></Array>
+            <mxPoint x="255" y="205" as="sourcePoint" />
+            <mxPoint x="465" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="4. Validar JWT + permiso (rol Dueño o asistencia propia)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC23" target="bC03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="245" /></Array>
+            <mxPoint x="475" y="245" as="sourcePoint" />
+            <mxPoint x="685" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="5. verify(token, secret)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC03" target="bJWT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="790" y="285" /></Array>
+            <mxPoint x="695" y="285" as="sourcePoint" />
+            <mxPoint x="885" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="6. payload {id_usuario, rol}" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bJWT" target="bC03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="790" y="325" /></Array>
+            <mxPoint x="885" y="325" as="sourcePoint" />
+            <mxPoint x="695" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="7. Acceso otorgado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bC03" target="bC23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="365" /></Array>
+            <mxPoint x="685" y="365" as="sourcePoint" />
+            <mxPoint x="475" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="8. Obtiene fecha/hora del proceso main (anti-manipulación)" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="540" y="405" /><mxPoint x="540" y="435" /></Array>
+            <mxPoint x="475" y="405" as="sourcePoint" />
+            <mxPoint x="475" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="9. SELECT trabajador por RUT" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bC23" target="bDZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="880" y="470" /></Array>
+            <mxPoint x="475" y="470" as="sourcePoint" />
+            <mxPoint x="1285" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="10. Ejecutar SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bDZ" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1390" y="510" /></Array>
+            <mxPoint x="1295" y="510" as="sourcePoint" />
+            <mxPoint x="1485" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="11. SELECT por RUT" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bTT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1590" y="550" /></Array>
+            <mxPoint x="1495" y="550" as="sourcePoint" />
+            <mxPoint x="1685" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="12. trabajador_estado = inactivo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bTT" target="bLS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1590" y="590" /></Array>
+            <mxPoint x="1685" y="590" as="sourcePoint" />
+            <mxPoint x="1495" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="13. OK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bLS" target="bDZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1390" y="630" /></Array>
+            <mxPoint x="1485" y="630" as="sourcePoint" />
+            <mxPoint x="1295" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="14. trabajador inactivo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bDZ" target="bC23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="880" y="670" /></Array>
+            <mxPoint x="1285" y="670" as="sourcePoint" />
+            <mxPoint x="475" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" value="15. Error: trabajador inactivo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bC23" target="bVA">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="360" y="710" /></Array>
+            <mxPoint x="465" y="710" as="sourcePoint" />
+            <mxPoint x="255" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="16. Muestra &quot;Trabajador inactivo: no puede registrar asistencia&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bVA" target="bA">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="750" /></Array>
+            <mxPoint x="245" y="750" as="sourcePoint" />
+            <mxPoint x="65" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
