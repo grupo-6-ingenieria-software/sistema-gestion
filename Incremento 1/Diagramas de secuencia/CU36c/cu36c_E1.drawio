@@ -1,0 +1,314 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="CU36c-E1-MetodoInvalido" id="4XFO5jYNDykPCKs_obqX">
+    <mxGraphModel dx="4779" dy="2162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zg23sKX4UyChFd2uVlC8-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="Dueño / Trabajador" vertex="1">
+          <mxGeometry height="1245" width="20" x="-760" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" value="V_RegistrarVentaView" vertex="1">
+          <mxGeometry height="1245" width="180" x="-650" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" value="V_PagoElectronicoView" vertex="1">
+          <mxGeometry height="1245" width="180" x="-430" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" value="C_ControlAcceso" vertex="1">
+          <mxGeometry height="1245" width="180" x="-210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="C_jsonwebtoken" vertex="1">
+          <mxGeometry height="1245" width="180" x="-10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" value="C_VentaHandler" vertex="1">
+          <mxGeometry height="1245" width="180" x="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" value="C_DescuentoStockHandler" vertex="1">
+          <mxGeometry height="1245" width="180" x="420" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" value="C_VerificacionCajaHandler" vertex="1">
+          <mxGeometry height="1245" width="180" x="640" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="C_cryptoNode" vertex="1">
+          <mxGeometry height="1245" width="180" x="860" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="C_drizzle" vertex="1">
+          <mxGeometry height="1245" width="180" x="1060" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="C_libsql" vertex="1">
+          <mxGeometry height="1245" width="180" x="1260" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="cierre_caja" vertex="1">
+          <mxGeometry height="1245" width="180" x="1460" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="producto" vertex="1">
+          <mxGeometry height="1245" width="180" x="1640" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="lote" vertex="1">
+          <mxGeometry height="1245" width="180" x="1820" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="venta" vertex="1">
+          <mxGeometry height="1245" width="180" x="2000" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="historial_precio_producto" vertex="1">
+          <mxGeometry height="1245" width="180" x="2180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="detalle_venta" vertex="1">
+          <mxGeometry height="1245" width="180" x="2360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="venta_lote" vertex="1">
+          <mxGeometry height="1245" width="180" x="2540" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-19" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="1050" width="10" x="-755" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-20" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" value="" vertex="1">
+          <mxGeometry height="145" width="10" x="-565" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-21" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" value="" vertex="1">
+          <mxGeometry height="1010" width="10" x="-345" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-22" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" value="" vertex="1">
+          <mxGeometry height="745" width="10" x="285" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-23" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" value="" vertex="1">
+          <mxGeometry height="145" width="10" x="-125" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-24" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-25" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" value="" vertex="1">
+          <mxGeometry height="305" width="10" x="725" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-26" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" value="" vertex="1">
+          <mxGeometry height="225" width="10" x="1145" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-27" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" value="" vertex="1">
+          <mxGeometry height="145" width="10" x="1345" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-28" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="1545" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-29" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-19" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-20" value="1. Selecciona pago electrónico (Débito / Crédito / Transferencia)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-655" y="120" />
+            </Array>
+            <mxPoint x="-745" y="120" as="sourcePoint" />
+            <mxPoint x="-565" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-30" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-20" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-21" value="2. Abre modal de pago electrónico (total, método)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-450" y="160" />
+            </Array>
+            <mxPoint x="-555" y="160" as="sourcePoint" />
+            <mxPoint x="-345" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-31" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-21" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-20" value="3. Modal inicializado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-450" y="200" />
+            </Array>
+            <mxPoint x="-345" y="200" as="sourcePoint" />
+            <mxPoint x="-555" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-32" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-20" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-19" value="4. Muestra total y método (sin monto recibido ni vuelto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-655" y="240" />
+            </Array>
+            <mxPoint x="-565" y="240" as="sourcePoint" />
+            <mxPoint x="-745" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-33" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-19" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-21" value="5. Confirma la venta con pago electrónico">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-545" y="280" />
+            </Array>
+            <mxPoint x="-745" y="280" as="sourcePoint" />
+            <mxPoint x="-345" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-34" edge="1" parent="1" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" value="6. Valida método electrónico seleccionado (débito/crédito/transferencia)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-270" y="320" />
+              <mxPoint x="-270" y="350" />
+            </Array>
+            <mxPoint x="-335" y="320" as="sourcePoint" />
+            <mxPoint x="-335" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-35" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-21" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-22" value="7. venta:registrar (carrito, método electrónico + JWT)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-25" y="385" />
+            </Array>
+            <mxPoint x="-335" y="385" as="sourcePoint" />
+            <mxPoint x="285" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-36" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-22" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-23" value="8. Validar JWT + permisos">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="425" />
+            </Array>
+            <mxPoint x="285" y="425" as="sourcePoint" />
+            <mxPoint x="-115" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-37" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-23" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-24" value="9. verify(token, secret)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="465" />
+            </Array>
+            <mxPoint x="-115" y="465" as="sourcePoint" />
+            <mxPoint x="75" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-38" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-23" value="10. payload {id_usuario, rol}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="505" />
+            </Array>
+            <mxPoint x="75" y="505" as="sourcePoint" />
+            <mxPoint x="-115" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-39" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-23" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-22" value="11. Acceso otorgado (rol = Dueño/Trabajador)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="545" />
+            </Array>
+            <mxPoint x="-115" y="545" as="sourcePoint" />
+            <mxPoint x="285" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-40" edge="1" parent="1" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" value="12. Asigna usuario autenticado como responsable (usuario_cajero_id)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="585" />
+              <mxPoint x="360" y="615" />
+            </Array>
+            <mxPoint x="295" y="585" as="sourcePoint" />
+            <mxPoint x="295" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-41" edge="1" parent="1" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" value="13. Revalida formato de método electrónico">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="650" />
+              <mxPoint x="360" y="680" />
+            </Array>
+            <mxPoint x="295" y="650" as="sourcePoint" />
+            <mxPoint x="295" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-42" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-22" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-25" value="14. Verificar caja del día (fecha actual)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="715" />
+            </Array>
+            <mxPoint x="295" y="715" as="sourcePoint" />
+            <mxPoint x="725" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-43" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-25" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-26" value="15. SELECT cierre_caja del día">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="755" />
+            </Array>
+            <mxPoint x="735" y="755" as="sourcePoint" />
+            <mxPoint x="1145" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-44" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-26" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-27" value="16. Ejecutar SQL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="795" />
+            </Array>
+            <mxPoint x="1155" y="795" as="sourcePoint" />
+            <mxPoint x="1345" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-45" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-27" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-28" value="17. SELECT por fecha">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1450" y="835" />
+            </Array>
+            <mxPoint x="1355" y="835" as="sourcePoint" />
+            <mxPoint x="1545" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-46" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-28" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-27" value="18. estado = abierta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1450" y="875" />
+            </Array>
+            <mxPoint x="1545" y="875" as="sourcePoint" />
+            <mxPoint x="1355" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-47" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-26" value="19. OK">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="915" />
+            </Array>
+            <mxPoint x="1345" y="915" as="sourcePoint" />
+            <mxPoint x="1155" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-48" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-26" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-25" value="20. caja del día abierta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="955" />
+            </Array>
+            <mxPoint x="1145" y="955" as="sourcePoint" />
+            <mxPoint x="735" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-49" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-25" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-22" value="21. Caja abierta: venta permitida (cierre_caja_id)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="995" />
+            </Array>
+            <mxPoint x="725" y="995" as="sourcePoint" />
+            <mxPoint x="295" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-50" edge="1" parent="1" style="html=1;align=left;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;rounded=0;curved=0;" value="22. Revalida valor de método electrónico: inválido o no seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1035" />
+              <mxPoint x="360" y="1065" />
+            </Array>
+            <mxPoint x="295" y="1035" as="sourcePoint" />
+            <mxPoint x="295" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-51" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-22" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-21" value="23. Error: método de pago electrónico inválido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-25" y="1105" />
+            </Array>
+            <mxPoint x="285" y="1105" as="sourcePoint" />
+            <mxPoint x="-335" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg23sKX4UyChFd2uVlC8-52" edge="1" parent="1" source="zg23sKX4UyChFd2uVlC8-21" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="zg23sKX4UyChFd2uVlC8-19" value="24. Muestra &quot;Método de pago inválido: seleccione Débito, Crédito o Transferencia&quot; e impide confirmar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-545" y="1145" />
+            </Array>
+            <mxPoint x="-345" y="1145" as="sourcePoint" />
+            <mxPoint x="-745" y="1145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
