@@ -1,0 +1,446 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="CU25-E3-FormatoInvalido" id="cu25-e3-001-no-overlap">
+    <mxGraphModel dx="2400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3400" pageHeight="2100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll1" value="Dueño" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="20" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2" value="V_ListadoTrabajadoresView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll3" value="V_CalendarioTurnosView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll4" value="V_CrearTurnoView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll5" value="C_TrabajadorHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll6" value="C_TurnoHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll7" value="C_ControlAcceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll8" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll9" value="C_SesionHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll10" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll11" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll12" value="trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll13" value="turno" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="ll14" value="SesionUsuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="10" width="180" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll1-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="10" height="1825" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll2-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="245" y="90" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll3-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="465" y="130" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll3-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="465" y="250" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll4-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="685" y="290" width="10" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-cu25-worker-handler-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="905" y="330" width="10" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll5-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="370" width="10" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll6-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="410" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll7-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="490" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll9-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="530" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll10-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2225" y="570" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll12-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="610" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll9-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="850" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll10-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2225" y="890" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-cu25-worker-table-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="930" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll4-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1210" width="10" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll8-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="1250" width="10" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll5-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="1290" width="10" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll6-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="1330" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll7-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="1410" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll9-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="1450" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll10-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2225" y="1490" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll12-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="1530" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-ll11-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2665" y="1770" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msg1" value="1. Selecciona Turnos en el módulo de personal" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll1-1" target="bar-ll2-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="100" /></Array>
+            <mxPoint x="60" y="100" as="sourcePoint" />
+            <mxPoint x="250" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" value="2. Navegar al calendario de turnos" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll2-2" target="bar-ll3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="360" y="140" /></Array>
+            <mxPoint x="250" y="140" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3" value="3. Calendario de turnos inicializado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll3-3" target="bar-ll2-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="360" y="180" /></Array>
+            <mxPoint x="470" y="180" as="sourcePoint" />
+            <mxPoint x="250" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4" value="4. Mostrar calendario de turnos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll2-2" target="bar-ll1-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="155" y="220" /></Array>
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <mxPoint x="60" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5" value="5. Presiona Crear turno" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll1-1" target="bar-ll3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="265" y="260" /></Array>
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg6" value="6. Navegar al formulario de turno" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll3-4" target="bar-ll4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="300" /></Array>
+            <mxPoint x="470" y="300" as="sourcePoint" />
+            <mxPoint x="690" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7" value="7. Solicitar trabajadores activos mediante trabajador:listar-activos con JWT" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll4-5" target="bar-cu25-worker-handler-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="800" y="340" /></Array>
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="910" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8" value="8. Validar JWT y permisos para consultar trabajadores" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-cu25-worker-handler-6" target="bar-ll5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1130" y="380" /></Array>
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="1350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg9" value="9. Verificar token y secreto" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll5-7" target="bar-ll6-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1460" y="420" /></Array>
+            <mxPoint x="1350" y="420" as="sourcePoint" />
+            <mxPoint x="1570" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg10" value="10. payload con id_usuario y rol" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll6-8" target="bar-ll5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1460" y="460" /></Array>
+            <mxPoint x="1570" y="460" as="sourcePoint" />
+            <mxPoint x="1350" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg11" value="11. Validar sesión activa" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll5-7" target="bar-ll7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1570" y="500" /></Array>
+            <mxPoint x="1350" y="500" as="sourcePoint" />
+            <mxPoint x="1790" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg12" value="12. Consultar sesión vigente y actualizar último acceso" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll7-9" target="bar-ll9-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1900" y="540" /></Array>
+            <mxPoint x="1790" y="540" as="sourcePoint" />
+            <mxPoint x="2010" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg13" value="13. Ejecutar SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll9-10" target="bar-ll10-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2120" y="580" /></Array>
+            <mxPoint x="2010" y="580" as="sourcePoint" />
+            <mxPoint x="2230" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg14" value="14. Consultar sesión vigente y actualizar último acceso" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll10-11" target="bar-ll12-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2560" y="620" /></Array>
+            <mxPoint x="2230" y="620" as="sourcePoint" />
+            <mxPoint x="2890" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg15" value="15. sesión vigente actualizada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll12-12" target="bar-ll10-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2560" y="660" /></Array>
+            <mxPoint x="2890" y="660" as="sourcePoint" />
+            <mxPoint x="2230" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg16" value="16. OK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll10-11" target="bar-ll9-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2120" y="700" /></Array>
+            <mxPoint x="2230" y="700" as="sourcePoint" />
+            <mxPoint x="2010" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg17" value="17. Sesión activa" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll9-10" target="bar-ll7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1900" y="740" /></Array>
+            <mxPoint x="2010" y="740" as="sourcePoint" />
+            <mxPoint x="1790" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg18" value="18. Sesión activa y último acceso actualizado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll7-9" target="bar-ll5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1570" y="780" /></Array>
+            <mxPoint x="1790" y="780" as="sourcePoint" />
+            <mxPoint x="1350" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg19" value="19. Acceso otorgado para rol Dueño" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll5-7" target="bar-cu25-worker-handler-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1130" y="820" /></Array>
+            <mxPoint x="1350" y="820" as="sourcePoint" />
+            <mxPoint x="910" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg20" value="20. Consultar trabajadores en estado Activo" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-cu25-worker-handler-6" target="bar-ll9-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1460" y="860" /></Array>
+            <mxPoint x="910" y="860" as="sourcePoint" />
+            <mxPoint x="2010" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg21" value="21. Ejecutar SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll9-13" target="bar-ll10-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2120" y="900" /></Array>
+            <mxPoint x="2010" y="900" as="sourcePoint" />
+            <mxPoint x="2230" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg22" value="22. Listar trabajadores activos" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll10-14" target="bar-cu25-worker-table-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2340" y="940" /></Array>
+            <mxPoint x="2230" y="940" as="sourcePoint" />
+            <mxPoint x="2450" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg23" value="23. Filas de trabajadores activos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-cu25-worker-table-15" target="bar-ll10-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2340" y="980" /></Array>
+            <mxPoint x="2450" y="980" as="sourcePoint" />
+            <mxPoint x="2230" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg24" value="24. OK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll10-14" target="bar-ll9-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2120" y="1020" /></Array>
+            <mxPoint x="2230" y="1020" as="sourcePoint" />
+            <mxPoint x="2010" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg25" value="25. Lista de trabajadores activos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll9-13" target="bar-cu25-worker-handler-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1460" y="1060" /></Array>
+            <mxPoint x="2010" y="1060" as="sourcePoint" />
+            <mxPoint x="910" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg26" value="26. Trabajadores activos disponibles para selección" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-cu25-worker-handler-6" target="bar-ll4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="800" y="1100" /></Array>
+            <mxPoint x="910" y="1100" as="sourcePoint" />
+            <mxPoint x="690" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg27" value="27. Formulario de turno inicializado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll4-5" target="bar-ll3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="1140" /></Array>
+            <mxPoint x="690" y="1140" as="sourcePoint" />
+            <mxPoint x="470" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg28" value="28. Mostrar formulario con trabajador fecha y horario" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll3-4" target="bar-ll1-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="265" y="1180" /></Array>
+            <mxPoint x="470" y="1180" as="sourcePoint" />
+            <mxPoint x="60" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg29" value="29. Completa una fecha u hora con formato inválido y presiona Guardar" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll1-1" target="bar-ll4-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="375" y="1220" /></Array>
+            <mxPoint x="60" y="1220" as="sourcePoint" />
+            <mxPoint x="690" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg30" value="30. Validar turno mediante turno:crear con datos y JWT" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll4-16" target="bar-ll8-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="910" y="1260" /></Array>
+            <mxPoint x="690" y="1260" as="sourcePoint" />
+            <mxPoint x="1130" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg31" value="31. Validar JWT y permisos para crear turnos" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll8-17" target="bar-ll5-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1240" y="1300" /></Array>
+            <mxPoint x="1130" y="1300" as="sourcePoint" />
+            <mxPoint x="1350" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg32" value="32. Verificar token y secreto" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll5-18" target="bar-ll6-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1460" y="1340" /></Array>
+            <mxPoint x="1350" y="1340" as="sourcePoint" />
+            <mxPoint x="1570" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg33" value="33. payload con id_usuario y rol" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll6-19" target="bar-ll5-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1460" y="1380" /></Array>
+            <mxPoint x="1570" y="1380" as="sourcePoint" />
+            <mxPoint x="1350" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg34" value="34. Validar sesión activa" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll5-18" target="bar-ll7-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1570" y="1420" /></Array>
+            <mxPoint x="1350" y="1420" as="sourcePoint" />
+            <mxPoint x="1790" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg35" value="35. Consultar sesión vigente y actualizar último acceso" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll7-20" target="bar-ll9-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1900" y="1460" /></Array>
+            <mxPoint x="1790" y="1460" as="sourcePoint" />
+            <mxPoint x="2010" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg36" value="36. Ejecutar SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll9-21" target="bar-ll10-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2120" y="1500" /></Array>
+            <mxPoint x="2010" y="1500" as="sourcePoint" />
+            <mxPoint x="2230" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg37" value="37. Consultar sesión vigente y actualizar último acceso" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll10-22" target="bar-ll12-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2560" y="1540" /></Array>
+            <mxPoint x="2230" y="1540" as="sourcePoint" />
+            <mxPoint x="2890" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg38" value="38. sesión vigente actualizada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll12-23" target="bar-ll10-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2560" y="1580" /></Array>
+            <mxPoint x="2890" y="1580" as="sourcePoint" />
+            <mxPoint x="2230" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg39" value="39. OK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll10-22" target="bar-ll9-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="2120" y="1620" /></Array>
+            <mxPoint x="2230" y="1620" as="sourcePoint" />
+            <mxPoint x="2010" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg40" value="40. Sesión activa" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll9-21" target="bar-ll7-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1900" y="1660" /></Array>
+            <mxPoint x="2010" y="1660" as="sourcePoint" />
+            <mxPoint x="1790" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg41" value="41. Sesión activa y último acceso actualizado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll7-20" target="bar-ll5-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1570" y="1700" /></Array>
+            <mxPoint x="1790" y="1700" as="sourcePoint" />
+            <mxPoint x="1350" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg42" value="42. Acceso otorgado para rol Dueño" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll5-18" target="bar-ll8-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1240" y="1740" /></Array>
+            <mxPoint x="1350" y="1740" as="sourcePoint" />
+            <mxPoint x="1130" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg43" value="43. Validar formato de fecha y hora del turno" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll8-17" target="bar-ll11-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1900" y="1780" /></Array>
+            <mxPoint x="1130" y="1780" as="sourcePoint" />
+            <mxPoint x="2670" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg44" value="44. Formato de fecha u hora inválido" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll11-24" target="bar-ll8-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1900" y="1820" /></Array>
+            <mxPoint x="2670" y="1820" as="sourcePoint" />
+            <mxPoint x="1130" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg45" value="45. Rechazar registro por formato de fecha u hora inválido" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll8-17" target="bar-ll4-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="910" y="1860" /></Array>
+            <mxPoint x="1130" y="1860" as="sourcePoint" />
+            <mxPoint x="690" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg46" value="46. Mostrar el campo con formato de fecha u hora inválido" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="bar-ll4-16" target="bar-ll1-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="375" y="1900" /></Array>
+            <mxPoint x="690" y="1900" as="sourcePoint" />
+            <mxPoint x="60" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
