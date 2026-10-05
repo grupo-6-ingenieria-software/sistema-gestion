@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Codex" version="26.0.0">
+  <diagram id="cu52-reporte-asistencia-e1-sin-registros" name="Página-1">
+    <mxGraphModel dx="3510" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3510" pageHeight="1712" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll_actor" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="55" y="10" width="20" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="label_actor" value="Dueño" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="0" y="62" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_view" value="V_ReporteAsistenciaView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_report" value="C_ReporteAsistenciaHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_access" value="C_ControlAcceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_session" value="C_SesionHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="947.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_jwt" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1207.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_drizzle" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1467.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_libsql" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1727.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_sesion_usuario" value="sesion_usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1987.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_trabajador" value="trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2247.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_usuario" value="usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2507.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_usuario_version" value="usuario_version" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2767.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_asistencia" value="asistencia" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3027.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_ausencia" value="ausencia" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3287.5" y="10" width="195" height="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="b_actor_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="120" width="10" height="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="b_view_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="260.0" y="120" width="10" height="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="b_report_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="520.0" y="258" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_report_2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="520.0" y="810" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_report_3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="520.0" y="1454" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b_access_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="780.0" y="304" width="10" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="b_access_2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="780.0" y="764" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_session_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1040.0" y="442" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="b_jwt_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1300.0" y="350" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_drizzle_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1560.0" y="488" width="10" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="b_drizzle_2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1560.0" y="1408" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_libsql_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1820.0" y="534" width="10" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="b_sesion_usuario_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2080.0" y="580" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_trabajador_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2340.0" y="948" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_usuario_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2600.0" y="1040" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_usuario_version_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2860.0" y="1132" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_asistencia_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="3120.0" y="1224" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="b_ausencia_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="3380.0" y="1316" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="m_1" value="1. Abre Reporte de Asistencia" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_actor_1" target="b_view_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165.0" y="125" />
+            </Array>
+            <mxPoint x="70.0" y="125" as="sourcePoint" />
+            <mxPoint x="260.0" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_2" value="2. Muestra mes, año y rol opcional" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_view_1" target="b_actor_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165.0" y="171" />
+            </Array>
+            <mxPoint x="260.0" y="171" as="sourcePoint" />
+            <mxPoint x="70.0" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_3" value="3. Ingresa período, rol y genera reporte" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_actor_1" target="b_view_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165.0" y="217" />
+            </Array>
+            <mxPoint x="70.0" y="217" as="sourcePoint" />
+            <mxPoint x="260.0" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_4" value="4. reporte:asistencia (mes, año, rol, JWT)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_view_1" target="b_report_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395.0" y="263" />
+            </Array>
+            <mxPoint x="270.0" y="263" as="sourcePoint" />
+            <mxPoint x="520.0" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_5" value="5. Autorizar operación para Dueño" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_report_1" target="b_access_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655.0" y="309" />
+            </Array>
+            <mxPoint x="530.0" y="309" as="sourcePoint" />
+            <mxPoint x="780.0" y="309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_6" value="6. Verificar firma, identidad y rol del JWT" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_access_1" target="b_jwt_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045.0" y="355" />
+            </Array>
+            <mxPoint x="790.0" y="355" as="sourcePoint" />
+            <mxPoint x="1300.0" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_7" value="7. Token válido y rol identificado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_jwt_1" target="b_access_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045.0" y="401" />
+            </Array>
+            <mxPoint x="1300.0" y="401" as="sourcePoint" />
+            <mxPoint x="790.0" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_8" value="8. Comprobar sesión no revocada" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_access_1" target="b_session_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="915.0" y="447" />
+            </Array>
+            <mxPoint x="790.0" y="447" as="sourcePoint" />
+            <mxPoint x="1040.0" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_9" value="9. Consultar vigencia de sesión" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_session_1" target="b_drizzle_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305.0" y="493" />
+            </Array>
+            <mxPoint x="1050.0" y="493" as="sourcePoint" />
+            <mxPoint x="1560.0" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_10" value="10. Ejecutar consulta protegida" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_drizzle_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695.0" y="539" />
+            </Array>
+            <mxPoint x="1570.0" y="539" as="sourcePoint" />
+            <mxPoint x="1820.0" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_11" value="11. SELECT sesión vigente" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_sesion_usuario_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955.0" y="585" />
+            </Array>
+            <mxPoint x="1830.0" y="585" as="sourcePoint" />
+            <mxPoint x="2080.0" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_12" value="12. Sesión activa" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_sesion_usuario_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955.0" y="631" />
+            </Array>
+            <mxPoint x="2080.0" y="631" as="sourcePoint" />
+            <mxPoint x="1830.0" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_13" value="13. Resultado de consulta" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_drizzle_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695.0" y="677" />
+            </Array>
+            <mxPoint x="1820.0" y="677" as="sourcePoint" />
+            <mxPoint x="1570.0" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_14" value="14. Vigencia confirmada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_drizzle_1" target="b_session_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305.0" y="723" />
+            </Array>
+            <mxPoint x="1560.0" y="723" as="sourcePoint" />
+            <mxPoint x="1050.0" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_15" value="15. Sesión válida" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_session_1" target="b_access_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="915.0" y="769" />
+            </Array>
+            <mxPoint x="1040.0" y="769" as="sourcePoint" />
+            <mxPoint x="790.0" y="769" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_16" value="16. Permiso Dueño confirmado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_access_2" target="b_report_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655.0" y="815" />
+            </Array>
+            <mxPoint x="780.0" y="815" as="sourcePoint" />
+            <mxPoint x="530.0" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_17" value="17. Consultar personal y actividad mensual" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_report_2" target="b_drizzle_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045.0" y="861" />
+            </Array>
+            <mxPoint x="530.0" y="861" as="sourcePoint" />
+            <mxPoint x="1560.0" y="861" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_18" value="18. Ejecutar SELECT parametrizado" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_drizzle_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695.0" y="907" />
+            </Array>
+            <mxPoint x="1570.0" y="907" as="sourcePoint" />
+            <mxPoint x="1820.0" y="907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_19" value="19. SELECT activos o con actividad mensual" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_trabajador_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2085.0" y="953" />
+            </Array>
+            <mxPoint x="1830.0" y="953" as="sourcePoint" />
+            <mxPoint x="2340.0" y="953" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_20" value="20. Trabajadores elegibles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_trabajador_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2085.0" y="999" />
+            </Array>
+            <mxPoint x="2340.0" y="999" as="sourcePoint" />
+            <mxPoint x="1830.0" y="999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_21" value="21. SELECT nombre y vínculo de cuenta" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_usuario_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2215.0" y="1045" />
+            </Array>
+            <mxPoint x="1830.0" y="1045" as="sourcePoint" />
+            <mxPoint x="2600.0" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_22" value="22. Identidades" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_usuario_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2215.0" y="1091" />
+            </Array>
+            <mxPoint x="2600.0" y="1091" as="sourcePoint" />
+            <mxPoint x="1830.0" y="1091" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_23" value="23. SELECT rol vigente/histórico" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_usuario_version_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2345.0" y="1137" />
+            </Array>
+            <mxPoint x="1830.0" y="1137" as="sourcePoint" />
+            <mxPoint x="2860.0" y="1137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_24" value="24. Roles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_usuario_version_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2345.0" y="1183" />
+            </Array>
+            <mxPoint x="2860.0" y="1183" as="sourcePoint" />
+            <mxPoint x="1830.0" y="1183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_25" value="25. SELECT entrada y salida del mes" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_asistencia_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2475.0" y="1229" />
+            </Array>
+            <mxPoint x="1830.0" y="1229" as="sourcePoint" />
+            <mxPoint x="3120.0" y="1229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_26" value="26. Jornadas" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_asistencia_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2475.0" y="1275" />
+            </Array>
+            <mxPoint x="3120.0" y="1275" as="sourcePoint" />
+            <mxPoint x="1830.0" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_27" value="27. SELECT ausencias por tipo" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_ausencia_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2605.0" y="1321" />
+            </Array>
+            <mxPoint x="1830.0" y="1321" as="sourcePoint" />
+            <mxPoint x="3380.0" y="1321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_28" value="28. Ausencias" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_ausencia_1" target="b_libsql_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2605.0" y="1367" />
+            </Array>
+            <mxPoint x="3380.0" y="1367" as="sourcePoint" />
+            <mxPoint x="1830.0" y="1367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_29" value="29. Filas consultadas" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_libsql_1" target="b_drizzle_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695.0" y="1413" />
+            </Array>
+            <mxPoint x="1820.0" y="1413" as="sourcePoint" />
+            <mxPoint x="1570.0" y="1413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_30" value="30. Registros del período" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_drizzle_2" target="b_report_3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045.0" y="1459" />
+            </Array>
+            <mxPoint x="1560.0" y="1459" as="sourcePoint" />
+            <mxPoint x="530.0" y="1459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_31" value="31. Comprobar período sin registros" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b_report_3" target="b_report_3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="1505" />
+              <mxPoint x="600.0" y="1523" />
+            </Array>
+            <mxPoint x="530.0" y="1505" as="sourcePoint" />
+            <mxPoint x="530.0" y="1523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_32" value="32. Tabla vacía sin filas de asistencia" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_report_3" target="b_view_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395.0" y="1551" />
+            </Array>
+            <mxPoint x="520.0" y="1551" as="sourcePoint" />
+            <mxPoint x="270.0" y="1551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_33" value="33. Muestra tabla vacía; no exporta" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="b_view_1" target="b_actor_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165.0" y="1597" />
+            </Array>
+            <mxPoint x="260.0" y="1597" as="sourcePoint" />
+            <mxPoint x="70.0" y="1597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
