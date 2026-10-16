@@ -1,2 +1,409 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mxfile host="Electron" modified="2026-09-12T21:41:09.012106+00:00" agent="Codex" version="26.0.0"><diagram id="cu41-consultar-buscar-ventas-e2-sin-resultados" name="Página-1"><mxGraphModel dx="3770" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3850" pageHeight="1732" math="0" shadow="0"><root><mxCell id="0" /><mxCell id="1" parent="0" /><mxCell id="h_actor" value="Dueño / Trabajador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="100" y="15" width="50" height="78" as="geometry" /></mxCell><mxCell id="life_actor" value="" style="shape=line;direction=south;html=1;dashed=1;dashPattern=4 4;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="124" y="92" width="1" height="1540" as="geometry" /></mxCell><mxCell id="h_view" value="V_ConsultaVentasView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="275" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_domain" value="C_HistorialVentasHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="525" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_access" value="C_ControlAcceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="775" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_jwt" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1025" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_session" value="C_SesionHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1275" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_drizzle" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1525" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_libsql" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1775" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_session_entity" value="SesionUsuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="2025" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_sale" value="Venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="2275" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_user" value="Usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="2525" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_detail" value="DetalleVenta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="2775" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_product" value="Producto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="3025" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_price" value="HistorialPrecioProducto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="3275" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="h_cashsale" value="VentaEfectivo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="3525" y="10" width="220" height="1622" as="geometry" /></mxCell><mxCell id="b_actor_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="119" y="118" width="10" height="1432" as="geometry" /></mxCell><mxCell id="b_view_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="375" y="118" width="10" height="1432" as="geometry" /></mxCell><mxCell id="b_domain_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="625" y="182" width="10" height="1304" as="geometry" /></mxCell><mxCell id="b_access_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="875" y="246" width="10" height="728" as="geometry" /></mxCell><mxCell id="b_jwt_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="1125" y="310" width="10" height="88" as="geometry" /></mxCell><mxCell id="b_session_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="1375" y="438" width="10" height="472" as="geometry" /></mxCell><mxCell id="b_drizzle_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="1625" y="502" width="10" height="344" as="geometry" /></mxCell><mxCell id="b_drizzle_2" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="1625" y="1014" width="10" height="344" as="geometry" /></mxCell><mxCell id="b_libsql_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="1875" y="566" width="10" height="216" as="geometry" /></mxCell><mxCell id="b_libsql_2" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="1875" y="1078" width="10" height="216" as="geometry" /></mxCell><mxCell id="b_session_entity_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="2125" y="630" width="10" height="88" as="geometry" /></mxCell><mxCell id="b_sale_1" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;portConstraint=eastwest;fillColor=none;strokeColor=none;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1" parent="1"><mxGeometry x="2375" y="1142" width="10" height="88" as="geometry" /></mxCell><mxCell id="v_b_actor_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="119" y="118" width="10" height="1432" as="geometry" /></mxCell><mxCell id="v_b_view_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="375" y="118" width="10" height="1432" as="geometry" /></mxCell><mxCell id="v_b_domain_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="625" y="182" width="10" height="1304" as="geometry" /></mxCell><mxCell id="v_b_access_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="875" y="246" width="10" height="728" as="geometry" /></mxCell><mxCell id="v_b_jwt_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1125" y="310" width="10" height="88" as="geometry" /></mxCell><mxCell id="v_b_session_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1375" y="438" width="10" height="472" as="geometry" /></mxCell><mxCell id="v_b_drizzle_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1625" y="502" width="10" height="344" as="geometry" /></mxCell><mxCell id="v_b_drizzle_2_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1625" y="1014" width="10" height="344" as="geometry" /></mxCell><mxCell id="v_b_libsql_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1875" y="566" width="10" height="216" as="geometry" /></mxCell><mxCell id="v_b_libsql_2_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1875" y="1078" width="10" height="216" as="geometry" /></mxCell><mxCell id="v_b_session_entity_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="2125" y="630" width="10" height="88" as="geometry" /></mxCell><mxCell id="v_b_sale_1_1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="2375" y="1142" width="10" height="88" as="geometry" /></mxCell><mxCell id="m1" value="1. Ingresa rango válido o número sin coincidencias" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=226;exitX=1;exitY=0.008379888268156424;exitPerimeter=0;entryX=0;entryY=0.008379888268156424;entryPerimeter=0;" edge="1" parent="1" source="b_actor_1" target="b_view_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="252.0" y="130" /></Array><mxPoint x="124" y="130" as="sourcePoint" /><mxPoint x="380" y="130" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m2" value="2. Solicitar mediante venta:buscar con JWT" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.05307262569832402;exitPerimeter=0;entryX=0;entryY=0.009202453987730062;entryPerimeter=0;" edge="1" parent="1" source="b_view_1" target="b_domain_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="505.0" y="194" /></Array><mxPoint x="380" y="194" as="sourcePoint" /><mxPoint x="630" y="194" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m3" value="3. authorizeRequest: validar JWT, permiso consultar ventas y sesión activa" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.05828220858895705;exitPerimeter=0;entryX=0;entryY=0.016483516483516484;entryPerimeter=0;" edge="1" parent="1" source="b_domain_1" target="b_access_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="755.0" y="258" /></Array><mxPoint x="630" y="258" as="sourcePoint" /><mxPoint x="880" y="258" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m4" value="4. Verificar firma y vigencia del token" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.1043956043956044;exitPerimeter=0;entryX=0;entryY=0.13636363636363635;entryPerimeter=0;" edge="1" parent="1" source="b_access_1" target="b_jwt_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1005.0" y="322" /></Array><mxPoint x="880" y="322" as="sourcePoint" /><mxPoint x="1130" y="322" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m5" value="5. Payload con id_usuario y rol de la sesión" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.8636363636363636;exitPerimeter=0;entryX=1;entryY=0.19230769230769232;entryPerimeter=0;" edge="1" parent="1" source="b_jwt_1" target="b_access_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1005.0" y="386" /></Array><mxPoint x="1130" y="386" as="sourcePoint" /><mxPoint x="880" y="386" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m6" value="6. Validar SesionUsuario activa y actualizar último acceso" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=470;exitX=1;exitY=0.2802197802197802;exitPerimeter=0;entryX=0;entryY=0.025423728813559324;entryPerimeter=0;" edge="1" parent="1" source="b_access_1" target="b_session_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1130.0" y="450" /></Array><mxPoint x="880" y="450" as="sourcePoint" /><mxPoint x="1380" y="450" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m7" value="7. Consultar sesión vigente" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.16101694915254236;exitPerimeter=0;entryX=0;entryY=0.03488372093023256;entryPerimeter=0;" edge="1" parent="1" source="b_session_1" target="b_drizzle_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1505.0" y="514" /></Array><mxPoint x="1380" y="514" as="sourcePoint" /><mxPoint x="1630" y="514" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m8" value="8. Ejecutar SQL parametrizado" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.22093023255813954;exitPerimeter=0;entryX=0;entryY=0.05555555555555555;entryPerimeter=0;" edge="1" parent="1" source="b_drizzle_1" target="b_libsql_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1755.0" y="578" /></Array><mxPoint x="1630" y="578" as="sourcePoint" /><mxPoint x="1880" y="578" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m9" value="9. Leer sesión, rol efectivo y vigencia" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.35185185185185186;exitPerimeter=0;entryX=0;entryY=0.13636363636363635;entryPerimeter=0;" edge="1" parent="1" source="b_libsql_1" target="b_session_entity_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2005.0" y="642" /></Array><mxPoint x="1880" y="642" as="sourcePoint" /><mxPoint x="2130" y="642" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m10" value="10. Sesión vigente" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.8636363636363636;exitPerimeter=0;entryX=1;entryY=0.6481481481481481;entryPerimeter=0;" edge="1" parent="1" source="b_session_entity_1" target="b_libsql_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2005.0" y="706" /></Array><mxPoint x="2130" y="706" as="sourcePoint" /><mxPoint x="1880" y="706" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m11" value="11. Resultado SQL" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.9444444444444444;exitPerimeter=0;entryX=1;entryY=0.7790697674418605;entryPerimeter=0;" edge="1" parent="1" source="b_libsql_1" target="b_drizzle_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1755.0" y="770" /></Array><mxPoint x="1880" y="770" as="sourcePoint" /><mxPoint x="1630" y="770" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m12" value="12. Sesión activa y último acceso actualizado" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.9651162790697675;exitPerimeter=0;entryX=1;entryY=0.8389830508474576;entryPerimeter=0;" edge="1" parent="1" source="b_drizzle_1" target="b_session_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1505.0" y="834" /></Array><mxPoint x="1630" y="834" as="sourcePoint" /><mxPoint x="1380" y="834" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m13" value="13. Contexto autorizado" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=470;exitX=0;exitY=0.9745762711864406;exitPerimeter=0;entryX=1;entryY=0.8956043956043956;entryPerimeter=0;" edge="1" parent="1" source="b_session_1" target="b_access_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1130.0" y="898" /></Array><mxPoint x="1380" y="898" as="sourcePoint" /><mxPoint x="880" y="898" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m14" value="14. Acceso concedido para la operación" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.9835164835164835;exitPerimeter=0;entryX=1;entryY=0.598159509202454;entryPerimeter=0;" edge="1" parent="1" source="b_access_1" target="b_domain_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="755.0" y="962" /></Array><mxPoint x="880" y="962" as="sourcePoint" /><mxPoint x="630" y="962" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m15" value="15. Consultar ventas por rango o número" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=970;exitX=1;exitY=0.647239263803681;exitPerimeter=0;entryX=0;entryY=0.03488372093023256;entryPerimeter=0;" edge="1" parent="1" source="b_domain_1" target="b_drizzle_2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1130.0" y="1026" /></Array><mxPoint x="630" y="1026" as="sourcePoint" /><mxPoint x="1630" y="1026" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m16" value="16. Ejecutar consulta SQL" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=1;exitY=0.22093023255813954;exitPerimeter=0;entryX=0;entryY=0.05555555555555555;entryPerimeter=0;" edge="1" parent="1" source="b_drizzle_2" target="b_libsql_2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1755.0" y="1090" /></Array><mxPoint x="1630" y="1090" as="sourcePoint" /><mxPoint x="1880" y="1090" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m17" value="17. Consultar ventas por rango o número" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=470;exitX=1;exitY=0.35185185185185186;exitPerimeter=0;entryX=0;entryY=0.13636363636363635;entryPerimeter=0;" edge="1" parent="1" source="b_libsql_2" target="b_sale_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2130.0" y="1154" /></Array><mxPoint x="1880" y="1154" as="sourcePoint" /><mxPoint x="2380" y="1154" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m18" value="18. Sin ventas coincidentes" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=470;exitX=0;exitY=0.8636363636363636;exitPerimeter=0;entryX=1;entryY=0.6481481481481481;entryPerimeter=0;" edge="1" parent="1" source="b_sale_1" target="b_libsql_2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2130.0" y="1218" /></Array><mxPoint x="2380" y="1218" as="sourcePoint" /><mxPoint x="1880" y="1218" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m19" value="19. Resultado de consulta" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.9444444444444444;exitPerimeter=0;entryX=1;entryY=0.7790697674418605;entryPerimeter=0;" edge="1" parent="1" source="b_libsql_2" target="b_drizzle_2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1755.0" y="1282" /></Array><mxPoint x="1880" y="1282" as="sourcePoint" /><mxPoint x="1630" y="1282" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m20" value="20. Sin ventas coincidentes" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=970;exitX=0;exitY=0.9651162790697675;exitPerimeter=0;entryX=1;entryY=0.8926380368098159;entryPerimeter=0;" edge="1" parent="1" source="b_drizzle_2" target="b_domain_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1130.0" y="1346" /></Array><mxPoint x="1630" y="1346" as="sourcePoint" /><mxPoint x="630" y="1346" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m21" value="21. Calcular monto vigente 0, cantidad vigente 0 y anuladas 0" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=270;align=left;exitX=1;exitY=0.941717791411043;exitPerimeter=0;entryX=1;entryY=0.9616564417177914;entryPerimeter=0;" edge="1" parent="1" source="b_domain_1" target="b_domain_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="695" y="1410" /><mxPoint x="695" y="1436" /></Array><mxPoint x="635" y="1410" as="sourcePoint" /><mxPoint x="635" y="1436" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m22" value="22. Listado vacío y agregados en cero" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=220;exitX=0;exitY=0.99079754601227;exitPerimeter=0;entryX=1;entryY=0.946927374301676;entryPerimeter=0;" edge="1" parent="1" source="b_domain_1" target="b_view_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="505.0" y="1474" /></Array><mxPoint x="630" y="1474" as="sourcePoint" /><mxPoint x="380" y="1474" as="targetPoint" /></mxGeometry></mxCell><mxCell id="m23" value="23. Mostrar tabla vacía sin resultados" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;endSize=8;dashed=1;dashPattern=4 4;curved=0;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=#ffffff;whiteSpace=wrap;labelWidth=226;exitX=0;exitY=0.9916201117318436;exitPerimeter=0;entryX=1;entryY=0.9916201117318436;entryPerimeter=0;" edge="1" parent="1" source="b_view_1" target="b_actor_1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="252.0" y="1538" /></Array><mxPoint x="380" y="1538" as="sourcePoint" /><mxPoint x="124" y="1538" as="targetPoint" /></mxGeometry></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="CU41 — E2 Sin resultados" id="cu41-consultar-buscar-ventas-e2-sin-resultados">
+    <mxGraphModel dx="2400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3015" pageHeight="1686" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ll_actor" value="Dueño / Trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="20" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_historyview" value="V_consulta_ventas_view" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_access" value="C_control_acceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_jwt" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_session" value="C_sesion_handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="820" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_history" value="C_historial_ventas_handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_drizzle" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_libsql" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_sesion_usuario" value="sesion_usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_cierre_caja" value="cierre_caja" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_historial_precio_producto" value="historial_precio_producto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_venta" value="venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_detalle_venta" value="detalle_venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_anulacion_venta" value="anulacion_venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="10" width="180" height="1636" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_actor" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="55" y="105" width="10" height="1516" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_historyview" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="245" y="105" width="10" height="1516" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_history" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="209" width="10" height="1372" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_access" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="465" y="249" width="10" height="574" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_jwt" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="685" y="289" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_session" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="905" y="384" width="10" height="335" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_drizzle" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="424" width="10" height="1038" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_libsql" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="464" width="10" height="958" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_sesion_usuario" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="519" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_venta" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="997" width="10" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_cierre_caja" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="1077" width="10" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_anulacion_venta" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="1157" width="10" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_detalle_venta" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2665" y="1237" width="10" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_historial_precio_producto" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2225" y="1317" width="10" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="1. Ingresar rango de fechas válido o número de venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_actor" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155.0" y="115"/>
+            </Array>
+            <mxPoint x="65" y="115" as="sourcePoint"/>
+            <mxPoint x="245" y="115" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="2. Validar fechas o UUID antes de buscar" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_historyview" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="155"/>
+              <mxPoint x="285" y="179"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="255" y="155" as="sourcePoint"/>
+            <mxPoint x="255" y="179" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="3. venta:buscar(criterio, fechas o ventaId) + JWT" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_historyview" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="219"/>
+            </Array>
+            <mxPoint x="255" y="219" as="sourcePoint"/>
+            <mxPoint x="1125" y="219" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="4. authorizeRequest: JWT, sesión y permisos para venta:buscar" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_history" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="259"/>
+            </Array>
+            <mxPoint x="1125" y="259" as="sourcePoint"/>
+            <mxPoint x="475" y="259" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="5. verify(token, secret)" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_access" target="b_jwt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580.0" y="299"/>
+            </Array>
+            <mxPoint x="475" y="299" as="sourcePoint"/>
+            <mxPoint x="685" y="299" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="6. Claims firmados: usuario_id, sesion_id y rol" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_jwt" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580.0" y="354"/>
+            </Array>
+            <mxPoint x="685" y="354" as="sourcePoint"/>
+            <mxPoint x="475" y="354" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="7. Validar sesión activa y renovar último acceso" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_access" target="b_session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="394"/>
+            </Array>
+            <mxPoint x="475" y="394" as="sourcePoint"/>
+            <mxPoint x="905" y="394" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="8. UPDATE sesión vigente del usuario; RETURNING rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_session" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130.0" y="434"/>
+            </Array>
+            <mxPoint x="915" y="434" as="sourcePoint"/>
+            <mxPoint x="1345" y="434" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="9. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460.0" y="474"/>
+            </Array>
+            <mxPoint x="1355" y="474" as="sourcePoint"/>
+            <mxPoint x="1565" y="474" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="10. UPDATE sesión vigente del usuario; RETURNING rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_sesion_usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="529"/>
+            </Array>
+            <mxPoint x="1575" y="529" as="sourcePoint"/>
+            <mxPoint x="1785" y="529" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="11. Sesión activa, último acceso renovado y rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_sesion_usuario" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="584"/>
+            </Array>
+            <mxPoint x="1785" y="584" as="sourcePoint"/>
+            <mxPoint x="1575" y="584" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="12. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460.0" y="624"/>
+            </Array>
+            <mxPoint x="1565" y="624" as="sourcePoint"/>
+            <mxPoint x="1355" y="624" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="13. Sesión activa, último acceso renovado y rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_drizzle" target="b_session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130.0" y="664"/>
+            </Array>
+            <mxPoint x="1345" y="664" as="sourcePoint"/>
+            <mxPoint x="915" y="664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="14. Sesión autorizada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_session" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="704"/>
+            </Array>
+            <mxPoint x="905" y="704" as="sourcePoint"/>
+            <mxPoint x="475" y="704" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" value="15. Validar permiso del rol efectivo para el canal" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_access" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="744"/>
+              <mxPoint x="505" y="768"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="475" y="744" as="sourcePoint"/>
+            <mxPoint x="475" y="768" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="16. Contexto autorizado para Dueño / Trabajador" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_access" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="808"/>
+            </Array>
+            <mxPoint x="475" y="808" as="sourcePoint"/>
+            <mxPoint x="1125" y="808" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" value="17. Normalizar criterio y convertir rango a fechas de Chile" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_history" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="848"/>
+              <mxPoint x="1165" y="872"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="1135" y="848" as="sourcePoint"/>
+            <mxPoint x="1135" y="872" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" value="18. SELECT ventas, estado y subtotal por rango o número" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_history" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="927"/>
+            </Array>
+            <mxPoint x="1135" y="927" as="sourcePoint"/>
+            <mxPoint x="1345" y="927" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" value="19. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460.0" y="967"/>
+            </Array>
+            <mxPoint x="1355" y="967" as="sourcePoint"/>
+            <mxPoint x="1565" y="967" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" value="20. SELECT ventas, estado y subtotal por rango o número" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010.0" y="1007"/>
+            </Array>
+            <mxPoint x="1575" y="1007" as="sourcePoint"/>
+            <mxPoint x="2445" y="1007" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" value="21. Datos de venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010.0" y="1047"/>
+            </Array>
+            <mxPoint x="2445" y="1047" as="sourcePoint"/>
+            <mxPoint x="1575" y="1047" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" value="22. Acceso a cierre_caja en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_libsql" target="b_cierre_caja">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1790.0" y="1087"/>
+            </Array>
+            <mxPoint x="1575" y="1087" as="sourcePoint"/>
+            <mxPoint x="2005" y="1087" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" value="23. Datos de cierre_caja" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_cierre_caja" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1790.0" y="1127"/>
+            </Array>
+            <mxPoint x="2005" y="1127" as="sourcePoint"/>
+            <mxPoint x="1575" y="1127" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24" value="24. Acceso a anulacion_venta en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_anulacion_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="1167"/>
+            </Array>
+            <mxPoint x="1575" y="1167" as="sourcePoint"/>
+            <mxPoint x="2885" y="1167" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e25" value="25. Datos de anulacion_venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_anulacion_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="1207"/>
+            </Array>
+            <mxPoint x="2885" y="1207" as="sourcePoint"/>
+            <mxPoint x="1575" y="1207" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e26" value="26. Acceso a detalle_venta en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_detalle_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120.0" y="1247"/>
+            </Array>
+            <mxPoint x="1575" y="1247" as="sourcePoint"/>
+            <mxPoint x="2665" y="1247" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27" value="27. Datos de detalle_venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_detalle_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120.0" y="1287"/>
+            </Array>
+            <mxPoint x="2665" y="1287" as="sourcePoint"/>
+            <mxPoint x="1575" y="1287" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e28" value="28. Acceso a historial_precio_producto en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_libsql" target="b_historial_precio_producto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900.0" y="1327"/>
+            </Array>
+            <mxPoint x="1575" y="1327" as="sourcePoint"/>
+            <mxPoint x="2225" y="1327" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29" value="29. Datos de historial_precio_producto" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_historial_precio_producto" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900.0" y="1367"/>
+            </Array>
+            <mxPoint x="2225" y="1367" as="sourcePoint"/>
+            <mxPoint x="1575" y="1367" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" value="30. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460.0" y="1407"/>
+            </Array>
+            <mxPoint x="1565" y="1407" as="sourcePoint"/>
+            <mxPoint x="1355" y="1407" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" value="31. Sin ventas coincidentes" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="1447"/>
+            </Array>
+            <mxPoint x="1345" y="1447" as="sourcePoint"/>
+            <mxPoint x="1135" y="1447" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e32" value="32. Calcular monto vigente y cantidad de vigentes / anuladas: todos en cero" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_history" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="1502"/>
+              <mxPoint x="1165" y="1526"/>
+            </Array>
+            <mxPoint x="190.0" y="-32.5" as="offset"/>
+            <mxPoint x="1135" y="1502" as="sourcePoint"/>
+            <mxPoint x="1135" y="1526" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" value="33. OK: ventas[] y resumen en cero" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_history" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="1566"/>
+            </Array>
+            <mxPoint x="1125" y="1566" as="sourcePoint"/>
+            <mxPoint x="255" y="1566" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" value="34. Mostrar tabla vacía: sin resultados" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_historyview" target="b_actor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155.0" y="1606"/>
+            </Array>
+            <mxPoint x="245" y="1606" as="sourcePoint"/>
+            <mxPoint x="65" y="1606" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

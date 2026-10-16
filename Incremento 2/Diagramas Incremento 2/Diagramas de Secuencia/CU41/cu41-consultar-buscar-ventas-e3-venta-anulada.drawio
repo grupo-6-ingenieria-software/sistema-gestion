@@ -1,0 +1,892 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="CU41 — E3 Copia de venta anulada bloqueada" id="cu41-consultar-buscar-ventas-e3-venta-anulada">
+    <mxGraphModel dx="2400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3675" pageHeight="3858" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ll_actor" value="Dueño / Trabajador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="20" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_historyview" value="V_consulta_ventas_view" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_access" value="C_control_acceso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_jwt" value="C_jsonwebtoken" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_session" value="C_sesion_handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="820" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_history" value="C_historial_ventas_handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_print" value="C_impresion_boleta_handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_drizzle" value="C_drizzle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_libsql" value="C_libsql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_sesion_usuario" value="sesion_usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_cierre_caja" value="cierre_caja" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_producto" value="producto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_historial_precio_producto" value="historial_precio_producto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_venta" value="venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_venta_efectivo" value="venta_efectivo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_detalle_venta" value="detalle_venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_anulacion_venta" value="anulacion_venta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontFamily=Arial;size=40;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="10" width="180" height="3808" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_actor" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="10" height="3703" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_historyview" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="245" y="90" width="10" height="3703" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_history" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="130" width="10" height="3504" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_access" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="465" y="170" width="10" height="2361" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_jwt" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="685" y="210" width="10" height="1867" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_session" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="905" y="305" width="10" height="2122" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_drizzle" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="345" width="10" height="3185" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_libsql" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="385" width="10" height="3105" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_sesion_usuario" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="440" width="10" height="1867" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_venta" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="839" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_cierre_caja" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2225" y="919" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_venta_efectivo" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3105" y="999" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_anulacion_venta" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3545" y="1079" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_detalle_venta" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3325" y="1319" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_producto" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="1399" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_historial_precio_producto" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2665" y="1479" width="10" height="1971" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_print" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="1917" width="10" height="1821" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="1. Seleccionar venta anulada del listado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_actor" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155.0" y="100"/>
+            </Array>
+            <mxPoint x="65" y="100" as="sourcePoint"/>
+            <mxPoint x="245" y="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="2. venta:detalle(ventaId) + JWT" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_historyview" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="140"/>
+            </Array>
+            <mxPoint x="255" y="140" as="sourcePoint"/>
+            <mxPoint x="1125" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="3. authorizeRequest: JWT, sesión y permisos para venta:detalle" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_history" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="180"/>
+            </Array>
+            <mxPoint x="1125" y="180" as="sourcePoint"/>
+            <mxPoint x="475" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="4. verify(token, secret)" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_access" target="b_jwt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580.0" y="220"/>
+            </Array>
+            <mxPoint x="475" y="220" as="sourcePoint"/>
+            <mxPoint x="685" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="5. Claims firmados: usuario_id, sesion_id y rol" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_jwt" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580.0" y="275"/>
+            </Array>
+            <mxPoint x="685" y="275" as="sourcePoint"/>
+            <mxPoint x="475" y="275" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="6. Validar sesión activa y renovar último acceso" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_access" target="b_session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="315"/>
+            </Array>
+            <mxPoint x="475" y="315" as="sourcePoint"/>
+            <mxPoint x="905" y="315" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="7. UPDATE sesión vigente del usuario; RETURNING rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_session" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="355"/>
+            </Array>
+            <mxPoint x="915" y="355" as="sourcePoint"/>
+            <mxPoint x="1565" y="355" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="8. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="395"/>
+            </Array>
+            <mxPoint x="1575" y="395" as="sourcePoint"/>
+            <mxPoint x="1785" y="395" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="9. UPDATE sesión vigente del usuario; RETURNING rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_sesion_usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900.0" y="450"/>
+            </Array>
+            <mxPoint x="1795" y="450" as="sourcePoint"/>
+            <mxPoint x="2005" y="450" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="10. Sesión activa, último acceso renovado y rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_sesion_usuario" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900.0" y="505"/>
+            </Array>
+            <mxPoint x="2005" y="505" as="sourcePoint"/>
+            <mxPoint x="1795" y="505" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="11. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="545"/>
+            </Array>
+            <mxPoint x="1785" y="545" as="sourcePoint"/>
+            <mxPoint x="1575" y="545" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="12. Sesión activa, último acceso renovado y rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_drizzle" target="b_session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="585"/>
+            </Array>
+            <mxPoint x="1565" y="585" as="sourcePoint"/>
+            <mxPoint x="915" y="585" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="13. Sesión autorizada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_session" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="625"/>
+            </Array>
+            <mxPoint x="905" y="625" as="sourcePoint"/>
+            <mxPoint x="475" y="625" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="14. Validar permiso del rol efectivo para el canal" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_access" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="665"/>
+              <mxPoint x="505" y="689"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="475" y="665" as="sourcePoint"/>
+            <mxPoint x="475" y="689" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" value="15. Contexto autorizado para Dueño / Trabajador" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_access" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="729"/>
+            </Array>
+            <mxPoint x="475" y="729" as="sourcePoint"/>
+            <mxPoint x="1125" y="729" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="16. SELECT cabecera, caja, pago y anulación por venta_id" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_history" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="769"/>
+            </Array>
+            <mxPoint x="1135" y="769" as="sourcePoint"/>
+            <mxPoint x="1565" y="769" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" value="17. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="809"/>
+            </Array>
+            <mxPoint x="1575" y="809" as="sourcePoint"/>
+            <mxPoint x="1785" y="809" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" value="18. SELECT cabecera, caja, pago y anulación por venta_id" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340.0" y="849"/>
+            </Array>
+            <mxPoint x="1795" y="849" as="sourcePoint"/>
+            <mxPoint x="2885" y="849" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" value="19. Datos de venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340.0" y="889"/>
+            </Array>
+            <mxPoint x="2885" y="889" as="sourcePoint"/>
+            <mxPoint x="1795" y="889" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" value="20. Acceso a cierre_caja en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_libsql" target="b_cierre_caja">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010.0" y="929"/>
+            </Array>
+            <mxPoint x="1795" y="929" as="sourcePoint"/>
+            <mxPoint x="2225" y="929" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" value="21. Datos de cierre_caja" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_cierre_caja" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010.0" y="969"/>
+            </Array>
+            <mxPoint x="2225" y="969" as="sourcePoint"/>
+            <mxPoint x="1795" y="969" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" value="22. Acceso a venta_efectivo en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_venta_efectivo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2450.0" y="1009"/>
+            </Array>
+            <mxPoint x="1795" y="1009" as="sourcePoint"/>
+            <mxPoint x="3105" y="1009" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" value="23. Datos de venta_efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_venta_efectivo" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2450.0" y="1049"/>
+            </Array>
+            <mxPoint x="3105" y="1049" as="sourcePoint"/>
+            <mxPoint x="1795" y="1049" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24" value="24. Acceso a anulacion_venta en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_anulacion_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2670.0" y="1089"/>
+            </Array>
+            <mxPoint x="1795" y="1089" as="sourcePoint"/>
+            <mxPoint x="3545" y="1089" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e25" value="25. Datos de anulacion_venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_anulacion_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2670.0" y="1129"/>
+            </Array>
+            <mxPoint x="3545" y="1129" as="sourcePoint"/>
+            <mxPoint x="1795" y="1129" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e26" value="26. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="1169"/>
+            </Array>
+            <mxPoint x="1785" y="1169" as="sourcePoint"/>
+            <mxPoint x="1575" y="1169" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27" value="27. Venta anulada; datos históricos" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_drizzle" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="1209"/>
+            </Array>
+            <mxPoint x="1565" y="1209" as="sourcePoint"/>
+            <mxPoint x="1135" y="1209" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e28" value="28. SELECT líneas con precio histórico vinculado al detalle" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_history" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="1249"/>
+            </Array>
+            <mxPoint x="1135" y="1249" as="sourcePoint"/>
+            <mxPoint x="1565" y="1249" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29" value="29. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="1289"/>
+            </Array>
+            <mxPoint x="1575" y="1289" as="sourcePoint"/>
+            <mxPoint x="1785" y="1289" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" value="30. SELECT líneas con precio histórico vinculado al detalle" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_detalle_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560.0" y="1329"/>
+            </Array>
+            <mxPoint x="1795" y="1329" as="sourcePoint"/>
+            <mxPoint x="3325" y="1329" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" value="31. Datos de detalle_venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_detalle_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560.0" y="1369"/>
+            </Array>
+            <mxPoint x="3325" y="1369" as="sourcePoint"/>
+            <mxPoint x="1795" y="1369" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e32" value="32. Acceso a producto en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_libsql" target="b_producto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120.0" y="1409"/>
+            </Array>
+            <mxPoint x="1795" y="1409" as="sourcePoint"/>
+            <mxPoint x="2445" y="1409" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" value="33. Datos de producto" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_producto" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120.0" y="1449"/>
+            </Array>
+            <mxPoint x="2445" y="1449" as="sourcePoint"/>
+            <mxPoint x="1795" y="1449" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" value="34. Acceso a historial_precio_producto en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_historial_precio_producto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="1489"/>
+            </Array>
+            <mxPoint x="1795" y="1489" as="sourcePoint"/>
+            <mxPoint x="2665" y="1489" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e35" value="35. Datos de historial_precio_producto" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_historial_precio_producto" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="1529"/>
+            </Array>
+            <mxPoint x="2665" y="1529" as="sourcePoint"/>
+            <mxPoint x="1795" y="1529" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e36" value="36. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="1569"/>
+            </Array>
+            <mxPoint x="1785" y="1569" as="sourcePoint"/>
+            <mxPoint x="1575" y="1569" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e37" value="37. Productos, cantidades y precios históricos" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_drizzle" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="1609"/>
+            </Array>
+            <mxPoint x="1565" y="1609" as="sourcePoint"/>
+            <mxPoint x="1135" y="1609" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e38" value="38. Calcular subtotal, descuento, total y vuelto si corresponde" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_history" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="1649"/>
+              <mxPoint x="1165" y="1673"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="1135" y="1649" as="sourcePoint"/>
+            <mxPoint x="1135" y="1673" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e39" value="39. OK: detalle persistido y estado anulada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_history" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="1713"/>
+            </Array>
+            <mxPoint x="1125" y="1713" as="sourcePoint"/>
+            <mxPoint x="255" y="1713" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e40" value="40. Mostrar detalle; deshabilitar Reimprimir boleta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_historyview" target="b_actor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155.0" y="1768"/>
+            </Array>
+            <mxPoint x="245" y="1768" as="sourcePoint"/>
+            <mxPoint x="65" y="1768" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e41" value="41. Reimprimir boleta deshabilitado para venta anulada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_historyview" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="1808"/>
+              <mxPoint x="285" y="1832"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="255" y="1808" as="sourcePoint"/>
+            <mxPoint x="255" y="1832" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e42" value="42. Intentar solicitud directa de copia fuera del botón habilitado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_actor" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155.0" y="1887"/>
+            </Array>
+            <mxPoint x="65" y="1887" as="sourcePoint"/>
+            <mxPoint x="245" y="1887" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e43" value="43. boleta:imprimir(ventaId, copia:true) + JWT" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_historyview" target="b_print">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="1927"/>
+            </Array>
+            <mxPoint x="255" y="1927" as="sourcePoint"/>
+            <mxPoint x="1345" y="1927" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e44" value="44. authorizeRequest: JWT, sesión y permisos para boleta:imprimir" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_print" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910.0" y="1967"/>
+            </Array>
+            <mxPoint x="1345" y="1967" as="sourcePoint"/>
+            <mxPoint x="475" y="1967" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e45" value="45. verify(token, secret)" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_access" target="b_jwt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580.0" y="2007"/>
+            </Array>
+            <mxPoint x="475" y="2007" as="sourcePoint"/>
+            <mxPoint x="685" y="2007" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e46" value="46. Claims firmados: usuario_id, sesion_id y rol" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_jwt" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580.0" y="2062"/>
+            </Array>
+            <mxPoint x="685" y="2062" as="sourcePoint"/>
+            <mxPoint x="475" y="2062" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e47" value="47. Validar sesión activa y renovar último acceso" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_access" target="b_session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="2102"/>
+            </Array>
+            <mxPoint x="475" y="2102" as="sourcePoint"/>
+            <mxPoint x="905" y="2102" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e48" value="48. UPDATE sesión vigente del usuario; RETURNING rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_session" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="2142"/>
+            </Array>
+            <mxPoint x="915" y="2142" as="sourcePoint"/>
+            <mxPoint x="1565" y="2142" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e49" value="49. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="2182"/>
+            </Array>
+            <mxPoint x="1575" y="2182" as="sourcePoint"/>
+            <mxPoint x="1785" y="2182" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e50" value="50. UPDATE sesión vigente del usuario; RETURNING rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_sesion_usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900.0" y="2237"/>
+            </Array>
+            <mxPoint x="1795" y="2237" as="sourcePoint"/>
+            <mxPoint x="2005" y="2237" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e51" value="51. Sesión activa, último acceso renovado y rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_sesion_usuario" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900.0" y="2292"/>
+            </Array>
+            <mxPoint x="2005" y="2292" as="sourcePoint"/>
+            <mxPoint x="1795" y="2292" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e52" value="52. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="2332"/>
+            </Array>
+            <mxPoint x="1785" y="2332" as="sourcePoint"/>
+            <mxPoint x="1575" y="2332" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e53" value="53. Sesión activa, último acceso renovado y rol efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_drizzle" target="b_session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="2372"/>
+            </Array>
+            <mxPoint x="1565" y="2372" as="sourcePoint"/>
+            <mxPoint x="915" y="2372" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e54" value="54. Sesión autorizada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_session" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.0" y="2412"/>
+            </Array>
+            <mxPoint x="905" y="2412" as="sourcePoint"/>
+            <mxPoint x="475" y="2412" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e55" value="55. Validar permiso del rol efectivo para el canal" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_access" target="b_access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="2452"/>
+              <mxPoint x="505" y="2476"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="475" y="2452" as="sourcePoint"/>
+            <mxPoint x="475" y="2476" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e56" value="56. Contexto autorizado para Dueño / Trabajador" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_access" target="b_print">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910.0" y="2516"/>
+            </Array>
+            <mxPoint x="475" y="2516" as="sourcePoint"/>
+            <mxPoint x="1345" y="2516" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e57" value="57. Validar UUID de venta y normalizar indicador copia" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_print" target="b_print">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1385" y="2556"/>
+              <mxPoint x="1385" y="2580"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="1355" y="2556" as="sourcePoint"/>
+            <mxPoint x="1355" y="2580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e58" value="58. loadSaleDetail(venta_id) — función interna reutilizada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_print" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="2635"/>
+            </Array>
+            <mxPoint x="1345" y="2635" as="sourcePoint"/>
+            <mxPoint x="1135" y="2635" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e59" value="59. SELECT cabecera, caja, pago y anulación por venta_id" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_history" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="2675"/>
+            </Array>
+            <mxPoint x="1135" y="2675" as="sourcePoint"/>
+            <mxPoint x="1565" y="2675" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e60" value="60. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="2715"/>
+            </Array>
+            <mxPoint x="1575" y="2715" as="sourcePoint"/>
+            <mxPoint x="1785" y="2715" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e61" value="61. SELECT cabecera, caja, pago y anulación por venta_id" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340.0" y="2755"/>
+            </Array>
+            <mxPoint x="1795" y="2755" as="sourcePoint"/>
+            <mxPoint x="2885" y="2755" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e62" value="62. Datos de venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340.0" y="2795"/>
+            </Array>
+            <mxPoint x="2885" y="2795" as="sourcePoint"/>
+            <mxPoint x="1795" y="2795" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e63" value="63. Acceso a cierre_caja en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_libsql" target="b_cierre_caja">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010.0" y="2835"/>
+            </Array>
+            <mxPoint x="1795" y="2835" as="sourcePoint"/>
+            <mxPoint x="2225" y="2835" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e64" value="64. Datos de cierre_caja" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_cierre_caja" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010.0" y="2875"/>
+            </Array>
+            <mxPoint x="2225" y="2875" as="sourcePoint"/>
+            <mxPoint x="1795" y="2875" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e65" value="65. Acceso a venta_efectivo en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_venta_efectivo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2450.0" y="2915"/>
+            </Array>
+            <mxPoint x="1795" y="2915" as="sourcePoint"/>
+            <mxPoint x="3105" y="2915" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e66" value="66. Datos de venta_efectivo" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_venta_efectivo" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2450.0" y="2955"/>
+            </Array>
+            <mxPoint x="3105" y="2955" as="sourcePoint"/>
+            <mxPoint x="1795" y="2955" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e67" value="67. Acceso a anulacion_venta en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_anulacion_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2670.0" y="2995"/>
+            </Array>
+            <mxPoint x="1795" y="2995" as="sourcePoint"/>
+            <mxPoint x="3545" y="2995" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e68" value="68. Datos de anulacion_venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_anulacion_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2670.0" y="3035"/>
+            </Array>
+            <mxPoint x="3545" y="3035" as="sourcePoint"/>
+            <mxPoint x="1795" y="3035" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e69" value="69. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="3075"/>
+            </Array>
+            <mxPoint x="1785" y="3075" as="sourcePoint"/>
+            <mxPoint x="1575" y="3075" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e70" value="70. Cabecera persistida y estado anulada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_drizzle" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="3115"/>
+            </Array>
+            <mxPoint x="1565" y="3115" as="sourcePoint"/>
+            <mxPoint x="1135" y="3115" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e71" value="71. SELECT líneas con precio histórico vinculado al detalle" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_history" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="3155"/>
+            </Array>
+            <mxPoint x="1135" y="3155" as="sourcePoint"/>
+            <mxPoint x="1565" y="3155" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e72" value="72. Ejecutar SQL parametrizado" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_drizzle" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="3195"/>
+            </Array>
+            <mxPoint x="1575" y="3195" as="sourcePoint"/>
+            <mxPoint x="1785" y="3195" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e73" value="73. SELECT líneas con precio histórico vinculado al detalle" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_detalle_venta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560.0" y="3235"/>
+            </Array>
+            <mxPoint x="1795" y="3235" as="sourcePoint"/>
+            <mxPoint x="3325" y="3235" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e74" value="74. Datos de detalle_venta" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_detalle_venta" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560.0" y="3275"/>
+            </Array>
+            <mxPoint x="3325" y="3275" as="sourcePoint"/>
+            <mxPoint x="1795" y="3275" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e75" value="75. Acceso a producto en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_libsql" target="b_producto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120.0" y="3315"/>
+            </Array>
+            <mxPoint x="1795" y="3315" as="sourcePoint"/>
+            <mxPoint x="2445" y="3315" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e76" value="76. Datos de producto" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=640;" edge="1" parent="1" source="b_producto" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120.0" y="3355"/>
+            </Array>
+            <mxPoint x="2445" y="3355" as="sourcePoint"/>
+            <mxPoint x="1795" y="3355" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e77" value="77. Acceso a historial_precio_producto en la misma operación" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_libsql" target="b_historial_precio_producto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="3395"/>
+            </Array>
+            <mxPoint x="1795" y="3395" as="sourcePoint"/>
+            <mxPoint x="2665" y="3395" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e78" value="78. Datos de historial_precio_producto" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_historial_precio_producto" target="b_libsql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="3435"/>
+            </Array>
+            <mxPoint x="2665" y="3435" as="sourcePoint"/>
+            <mxPoint x="1795" y="3435" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e79" value="79. Resultado SQL" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_libsql" target="b_drizzle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.0" y="3475"/>
+            </Array>
+            <mxPoint x="1785" y="3475" as="sourcePoint"/>
+            <mxPoint x="1575" y="3475" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e80" value="80. Productos, cantidades y precios de la venta registrada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=420;" edge="1" parent="1" source="b_drizzle" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350.0" y="3515"/>
+            </Array>
+            <mxPoint x="1565" y="3515" as="sourcePoint"/>
+            <mxPoint x="1135" y="3515" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e81" value="81. Calcular subtotal, descuento, total y vuelto si corresponde" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_history" target="b_history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="3555"/>
+              <mxPoint x="1165" y="3579"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="1135" y="3555" as="sourcePoint"/>
+            <mxPoint x="1135" y="3579" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e82" value="82. Detalle persistido; estado anulada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_history" target="b_print">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240.0" y="3619"/>
+            </Array>
+            <mxPoint x="1135" y="3619" as="sourcePoint"/>
+            <mxPoint x="1345" y="3619" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e83" value="83. Comprobar que la venta no está anulada" style="html=1;whiteSpace=wrap;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=360;" edge="1" parent="1" source="b_print" target="b_print">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1385" y="3659"/>
+              <mxPoint x="1385" y="3683"/>
+            </Array>
+            <mxPoint x="190.0" y="-25.0" as="offset"/>
+            <mxPoint x="1355" y="3659" as="sourcePoint"/>
+            <mxPoint x="1355" y="3683" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e84" value="84. BUSINESS_RULE: no se reimprimen boletas de ventas anuladas" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=780;" edge="1" parent="1" source="b_print" target="b_historyview">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="3723"/>
+            </Array>
+            <mxPoint x="1345" y="3723" as="sourcePoint"/>
+            <mxPoint x="255" y="3723" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e85" value="85. Mostrar bloqueo; no componer ESC/POS ni enviar a cola ni auditar copia" style="html=1;whiteSpace=wrap;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Arial;labelWidth=230;" edge="1" parent="1" source="b_historyview" target="b_actor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155.0" y="3778"/>
+            </Array>
+            <mxPoint x="245" y="3778" as="sourcePoint"/>
+            <mxPoint x="65" y="3778" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
